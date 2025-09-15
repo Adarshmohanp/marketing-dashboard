@@ -30,7 +30,7 @@ def load_data():
     marketing_df = pd.concat([fb, google, tiktok], ignore_index=True)
     
     # Load business data
-    business_df = pd.read_csv('Business.csv')
+    business_df = pd.read_csv('business.csv')
     
     # Convert date columns to datetime
     marketing_df['date'] = pd.to_datetime(marketing_df['date'])
@@ -230,3 +230,4 @@ st.dataframe(filtered_df.sort_values('date', ascending=False), use_container_wid
 # Footer
 st.markdown("---")
 st.markdown("### 📊 Marketing Intelligence Dashboard | Built with Streamlit")
+
