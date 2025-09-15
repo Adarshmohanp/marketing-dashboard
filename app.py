@@ -21,7 +21,7 @@ def load_data():
     google = pd.read_csv('Google.csv')
     tiktok = pd.read_csv('TikTok.csv')
     
-    # Add a 'channel' column to each dataframe
+    # Add a 'channel' column to each dataframee
     fb['channel'] = 'Facebook'
     google['channel'] = 'Google'
     tiktok['channel'] = 'TikTok'
