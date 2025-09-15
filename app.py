@@ -13,7 +13,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Load data
+# Load dataa
 @st.cache_data
 def load_data():
     # Load marketing data
